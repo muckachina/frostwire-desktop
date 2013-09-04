@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Felipe <Unknown>, 2007.
 #
-msgid ""
+msgid "mensaji"
 msgstr ""
 "Project-Id-Version: frostwire\n"
 "Report-Msgid-Bugs-To: \n"
