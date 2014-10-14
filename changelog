@@ -1,3 +1,79 @@
+frostwire (6.0.0) unstable; urgency=high
+  * New BitTorrent engine based on frostwire-jlibtorrent,
+    a libtorrent wrapper api created by FrostWire.
+  * Russian translation updates.
+  * Croatian translation updates.
+  * Simplified Chinese translation updates.
+  * Multiple bug fixes.
+
+ -- FrostWire Team <contact@frostwire.com>  Mon, 13 October 2014 13:59:00 -0500
+
+frostwire (5.7.7) stable; urgency=high
+  * New: VPN connection status indicator.
+  * New: Stop media playback by long pressing play/pause button.
+  * Fix: Freeze when opening FrostWire from the first time out of
+    clicking on a magnet link or .torrent file.
+  * Fix: Bug where files couldn't be played with the main player button.
+  * Fix: Bug where the speaker icon on the library would still show
+    after the media player had stopped.
+  * Fix: Bug after 5.7.5 in which the buttons of the Create Torrent
+    dialog were not visible unless the window was resized.
+  * Fixes issue on Linux when player window pixel translucency could
+    not be set. Thanks @foutrelis.
+  * Fixes Null Pointer Exception when trying to shutdown and hide
+    an MPlayerWindow that may have not been instantiated.
+  * Fixes issue where user could not create new playlist by dropping
+    songs from existing playlist into 'New Playlist' list item in
+    the library.
+  * Updated MigLayout source code to version 4.0
+
+ -- FrostWire Team <contact@frostwire.com>  Wed, 01 October 2014 17:00:00 -0500
+
+frostwire (5.7.6) stable; urgency=high
+  * New: Filter search results by file extension, source name.
+  * UI: Now table rows have a subtle bevel effect.
+  * UI: Adds support for full screen mode on Mac OSX. Thanks to Tim Farris.
+
+ -- FrostWire Team <contact@frostwire.com>  Thu, 21 August 2014 23:53:35 -0500
+
+frostwire (5.7.5) stable; urgency=high
+  * Improved mp4 parser.
+  * Improved cloud search results.
+  * Now FrostWire runs with Java8 technology.
+  * Fixes player control layout issues when resizing the main window.
+  * Fixes soundcloud url track/set downloads.
+  * Fixes possible cloud download errors.
+
+ -- FrostWire Team <contact@frostwire.com>  Tue, 11 August 2014 17:46:15 -0500
+
+frostwire (5.7.4) stable; urgency=high
+  * Fixes issues with youtube downloads.
+  * Recovered ability to download soundcloud urls.
+  * Can download entire soundcloud playlists from playlist url.
+  * Fixed broken Torrents.fm search.
+  * Updated Gson library, included the sources into our repo.
+	
+ -- FrostWire Team <contact@frostwire.com>  Thu, 26 June 2014 15:44:35 -0500
+
+frostwire (5.7.3) stable; urgency=high
+  * New Yifi search.
+  * Added Canonical Peer Priority support. (BEP40)
+  * Fixed broken EZTV search.
+  * Removed apache httpclient and httpcore libraries.
+	
+ -- FrostWire Team <contact@frostwire.com>  Fri, 23 May 2014 16:20:00 -0500
+
+frostwire (5.7.2) stable; urgency=high
+  * uTP support enabled.
+  * Multiple crash fixes.
+  * UX: playable single file torrents now can be played from transfer list.
+  * UX: Fixes UI Thread freeze when opening Options > Search.
+  * UX: Better error reporting when a torrent can't be fetched from a 
+        magnet connection.
+  * Spanish translation update by @dennistobar.
+
+ -- FrostWire Team <contact@frostwire.com>  Fri, 11 Apr 2014 14:22:10 -0500
+	
 frostwire (5.7.1) stable; urgency=high
   * Wi-Fi sharing discovery improved considerably with JmDNS.
     Removed cling library.
